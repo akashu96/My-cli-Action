@@ -1,0 +1,13 @@
+name: "setup mycli"
+description: "A GitHub Action to setup mycli tool"
+author: "Ashutosh Kaushal"
+
+inputs:
+  version:
+    description: "Version of mycli to install"
+    required: false
+    default: "latest"
+
+runs:
+  using: "node16"
+  main: "index.js"
