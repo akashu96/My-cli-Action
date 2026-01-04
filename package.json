@@ -7,9 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": ["github-actions", "mycli"],
-  "author": "Ashutosh Kaushal"
-  "license": "MIT"
+  "author": "Ashutosh Kaushal",
+  "license": "MIT",
   "dependencies": {
-    "@action/core": "^1.10.0"
+    "@actions/core": "^1.10.0"
   }
 }
